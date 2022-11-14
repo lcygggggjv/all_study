@@ -1,0 +1,273 @@
+2022-09-09 22:53:47.093 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:47.324 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [200]> != {'message': '登录成功', 'code': 200, 'token': 'success_token'}
+2022-09-09 22:53:47.345 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:47.403 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '用户名为空', 'code': 201, 'token': 'error'}
+2022-09-09 22:53:47.404 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:47.600 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '密码为空', 'code': 202, 'token': 'error'}
+2022-09-09 22:53:47.601 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:47.694 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '用户或密码错误', 'code': 203, 'token': 'error'}
+2022-09-09 22:53:47.695 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:47.810 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '图片验证码为空', 'code': 204, 'token': 'error'}
+2022-09-09 22:53:47.811 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:47.900 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '输入用户名不符合规则', 'code': 205, 'token': 'error'}
+2022-09-09 22:53:47.901 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:47.995 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '密码为数字+英文', 'code': 206, 'token': 'error'}
+2022-09-09 22:53:47.996 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:48.090 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '图片验证码错误', 'code': 207, 'token': 'error'}
+2022-09-09 22:53:48.094 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:53:48.186 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '输入图片验证码不符合规则', 'code': 208, 'token': 'error'}
+2022-09-09 22:54:15.446 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:15.663 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [200]> != {'message': '登录成功', 'code': 200, 'token': 'success_token'}
+2022-09-09 22:54:15.674 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:15.731 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '用户名为空', 'code': 201, 'token': 'error'}
+2022-09-09 22:54:15.735 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:15.919 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '密码为空', 'code': 202, 'token': 'error'}
+2022-09-09 22:54:15.921 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:16.019 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '用户或密码错误', 'code': 203, 'token': 'error'}
+2022-09-09 22:54:16.021 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:16.111 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '图片验证码为空', 'code': 204, 'token': 'error'}
+2022-09-09 22:54:16.113 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:16.219 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '输入用户名不符合规则', 'code': 205, 'token': 'error'}
+2022-09-09 22:54:16.221 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:16.318 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '密码为数字+英文', 'code': 206, 'token': 'error'}
+2022-09-09 22:54:16.319 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:16.411 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '图片验证码错误', 'code': 207, 'token': 'error'}
+2022-09-09 22:54:16.413 | INFO     | test_unittestCase:test_kk:38 - 运行结果
+2022-09-09 22:54:16.513 | ERROR    | test_unittestCase:test_kk:54 - 断言结果<Response [400]> != {'message': '输入图片验证码不符合规则', 'code': 208, 'token': 'error'}
+2022-09-13 22:25:27.620 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:27.968 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:28.234 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:28.491 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:28.766 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:29.033 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:29.295 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:29.567 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:25:29.808 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:53.581 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:53.899 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:54.165 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:54.415 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:54.664 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:54.902 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:55.148 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:55.426 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:26:55.700 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:20.967 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.046 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.055 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.062 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.069 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.078 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.085 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.093 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 22:39:21.101 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:27.370 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:27.596 | ERROR    | test_unittestCase:test_kk:60 - 断言结果{'access_token': '3cb52b15-f28b-4ab5-9291-c0f3d01d3aea', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': '3cb52b15-f28b-4ab5-9291-c0f3d01d3aea',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '274ad968-47b6-4ea9-87f4-0ca4d48d4056',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-13 23:55:27.620 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:27.775 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:27.897 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:28.016 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:28.145 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:28.288 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:28.436 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-13 23:55:28.575 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.001 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.278 | ERROR    | test_unittestCase:test_kk:62 - 断言结果{'access_token': '8e3e902b-14eb-462a-b606-f95922c715a6', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': '8e3e902b-14eb-462a-b606-f95922c715a6',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '5be7209d-587c-4591-80db-0e698113c2d3',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 00:04:41.280 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.394 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.572 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.663 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.759 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.861 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:41.951 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:04:42.060 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:13:28.284 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:13:36.699 | ERROR    | test_unittestCase:test_kk:62 - 断言结果{'access_token': '3a89302c-b8fc-4b94-bcbb-8d5f3e1ee4de', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': '3a89302c-b8fc-4b94-bcbb-8d5f3e1ee4de',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '2ad2bf07-1b92-41c1-9f68-cb0ee17f64b0',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 00:13:36.701 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:12.918 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:15.394 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:17.775 | ERROR    | test_unittestCase:test_kk:62 - 断言结果{'access_token': 'fddc1773-1fb1-48e8-b9fc-b6489600509f', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': 'fddc1773-1fb1-48e8-b9fc-b6489600509f',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '246e683f-6bd8-43e4-9a67-e0160db62390',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 00:14:17.781 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:19.706 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:19.906 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:20.010 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:20.120 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:20.257 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:20.348 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:20.449 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:28.247 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:28.469 | ERROR    | test_unittestCase:test_kk:62 - 断言结果{'access_token': '6b9c2f18-61d5-4311-bee4-ec22f45f51e4', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': '6b9c2f18-61d5-4311-bee4-ec22f45f51e4',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '5037fda9-052a-4630-992d-65c0126aab72',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 00:14:28.472 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:28.582 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:28.771 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:28.864 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:28.965 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:29.065 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:29.172 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:14:29.269 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.015 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.288 | ERROR    | test_unittestCase:test_kk:62 - 断言结果{'access_token': '987212ec-e727-4d37-9c10-f1efcd4c73ac', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': '987212ec-e727-4d37-9c10-f1efcd4c73ac',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '572191ee-318b-45eb-949e-6fedf5b18d8c',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 00:17:54.292 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.397 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.577 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.665 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.760 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.854 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:54.963 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 00:17:55.062 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:35.984 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:36.315 | ERROR    | test_unittestCase:test_kk:62 - 断言结果{'access_token': 'fd738e0d-92c3-4640-8a70-10cced490d17', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': 'fd738e0d-92c3-4640-8a70-10cced490d17',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '7f8cca69-f52e-422c-bce9-494f7284f1f8',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 20:25:36.319 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:36.422 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:36.605 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:36.714 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:36.805 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:36.907 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:37.005 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:25:37.111 | INFO     | test_unittestCase:test_kk:39 - 运行结果
+2022-09-14 20:40:41.310 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:41.603 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'{"access_token":"c34a1bf4-a09f-4702-b8b1[109 chars]999}' != {'access_token': '5a8c22ff-2078-4e02-a4dd[114 chars]5999}
+2022-09-14 20:40:41.607 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:41.720 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'Incorrect account or password' != {'message': '用户名为空', 'code': 201, 'token': 'error'}
+2022-09-14 20:40:41.722 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:41.900 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'Incorrect account or password' != {'message': '密码为空', 'code': 202, 'token': 'error'}
+2022-09-14 20:40:41.901 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:42.012 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'Incorrect account or password' != {'message': '用户或密码错误', 'code': 203, 'token': 'error'}
+2022-09-14 20:40:42.013 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:42.125 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码为空', 'code': 204, 'token': 'error'}
+2022-09-14 20:40:42.127 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:42.230 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'The verification code is wrong or expired' != {'message': '输入用户名不符合规则', 'code': 205, 'token': 'error'}
+2022-09-14 20:40:42.232 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:42.331 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'The verification code is wrong or expired' != {'message': '密码为数字+英文', 'code': 206, 'token': 'error'}
+2022-09-14 20:40:42.333 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:42.425 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码错误', 'code': 207, 'token': 'error'}
+2022-09-14 20:40:42.427 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:40:42.538 | ERROR    | test_unittestCase:test_kk:49 - 断言结果'The verification code is wrong or expired' != {'message': '输入图片验证码不符合规则', 'code': 208, 'token': 'error'}
+2022-09-14 20:45:29.527 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:29.751 | ERROR    | test_unittestCase:test_kk:49 - 断言结果{'access_token': '87809151-f180-4943-9d44-f0418a3f18c8', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': '87809151-f180-4943-9d44-f0418a3f18c8',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '3968ad41-d7f2-4996-92ee-5d68c2d991c7',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 20:45:29.754 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:29.853 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:30.034 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:30.137 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:30.255 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:30.355 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:30.455 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:45:30.566 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:00.413 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:00.819 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'{"access_token":"8bd40159-b7a1-4523-8c15[109 chars]999}' != {'access_token': '5a8c22ff-2078-4e02-a4dd[114 chars]5999}
+2022-09-14 20:48:00.824 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:00.934 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '用户名为空', 'code': '201', 'token': 'error'}
+2022-09-14 20:48:00.936 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:01.382 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '密码为空', 'code': 202, 'token': 'error'}
+2022-09-14 20:48:01.383 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:01.531 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '用户或密码错误', 'code': 203, 'token': 'error'}
+2022-09-14 20:48:01.533 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:01.647 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码为空', 'code': 204, 'token': 'error'}
+2022-09-14 20:48:01.649 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:01.740 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '输入用户名不符合规则', 'code': 205, 'token': 'error'}
+2022-09-14 20:48:01.745 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:01.840 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '密码为数字+英文', 'code': 206, 'token': 'error'}
+2022-09-14 20:48:01.841 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:01.946 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码错误', 'code': 207, 'token': 'error'}
+2022-09-14 20:48:01.947 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:48:02.064 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '输入图片验证码不符合规则', 'code': 208, 'token': 'error'}
+2022-09-14 20:49:39.883 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:40.360 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'{"access_token":"266d2c47-b240-42a4-b1e4[109 chars]999}' != {'access_token': '5a8c22ff-2078-4e02-a4dd[114 chars]5999}
+2022-09-14 20:49:40.362 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:40.466 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '用户名为空', 'code': '201', 'token': 'error'}
+2022-09-14 20:49:40.470 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:40.656 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '密码为空', 'code': 202, 'token': 'error'}
+2022-09-14 20:49:40.658 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:40.768 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '用户或密码错误', 'code': 203, 'token': 'error'}
+2022-09-14 20:49:40.774 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:40.875 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码为空', 'code': 204, 'token': 'error'}
+2022-09-14 20:49:40.877 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:40.977 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '输入用户名不符合规则', 'code': 205, 'token': 'error'}
+2022-09-14 20:49:40.978 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:41.079 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '密码为数字+英文', 'code': 206, 'token': 'error'}
+2022-09-14 20:49:41.080 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:41.171 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码错误', 'code': 207, 'token': 'error'}
+2022-09-14 20:49:41.173 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:49:41.277 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '输入图片验证码不符合规则', 'code': 208, 'token': 'error'}
+2022-09-14 20:50:25.580 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:25.804 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'{"access_token":"84079a21-6914-4f48-be4c[109 chars]999}' != {'access_token': '5a8c22ff-2078-4e02-a4dd[114 chars]5999}
+2022-09-14 20:50:25.807 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:25.907 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '用户名为空', 'code': '201', 'token': 'error'}
+2022-09-14 20:50:25.909 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:26.092 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '密码为空', 'code': 202, 'token': 'error'}
+2022-09-14 20:50:26.096 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:26.195 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'Incorrect account or password' != {'message': '用户或密码错误', 'code': 203, 'token': 'error'}
+2022-09-14 20:50:26.198 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:26.324 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码为空', 'code': 204, 'token': 'error'}
+2022-09-14 20:50:26.330 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:26.446 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '输入用户名不符合规则', 'code': 205, 'token': 'error'}
+2022-09-14 20:50:26.447 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:26.556 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '密码为数字+英文', 'code': 206, 'token': 'error'}
+2022-09-14 20:50:26.558 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:26.657 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '图片验证码错误', 'code': 207, 'token': 'error'}
+2022-09-14 20:50:26.661 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:50:26.755 | ERROR    | test_unittestCase:test_kk:50 - 断言结果'The verification code is wrong or expired' != {'message': '输入图片验证码不符合规则', 'code': 208, 'token': 'error'}
+2022-09-14 20:52:29.654 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:29.905 | ERROR    | test_unittestCase:test_kk:50 - 断言结果{'access_token': 'e995e5b3-1629-4956-8fed-98742a43a26d', 't[96 chars]5999} != {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999}
+- {'access_token': 'e995e5b3-1629-4956-8fed-98742a43a26d',
++ {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
+   'expires_in': 1295999,
+-  'refresh_token': '67b285c0-8b5b-4521-8a27-1e5be5fef011',
++  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
+   'token_type': 'bearer'}
+2022-09-14 20:52:29.909 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:30.018 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:30.206 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:30.314 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:30.422 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:30.537 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:30.635 | INFO     | test_unittestCase:test_kk:27 - 运行结果
+2022-09-14 20:52:30.748 | INFO     | test_unittestCase:test_kk:27 - 运行结果

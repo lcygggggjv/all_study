@@ -1,0 +1,147 @@
+2022-09-04 14:53:04.029 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:53:04.030 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:53:04.031 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:53:04.033 | ERROR    | test_TestCase:test_kk:30 - 断言错误{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-04 14:53:04.035 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:53:04.035 | ERROR    | test_TestCase:test_kk:30 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 14:53:04.037 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:53:04.038 | ERROR    | test_TestCase:test_kk:30 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 14:54:05.161 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:54:05.162 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:54:05.162 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:54:05.163 | ERROR    | test_TestCase:test_kk:30 - 断言错误{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-04 14:54:05.164 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:54:05.165 | ERROR    | test_TestCase:test_kk:30 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 14:54:05.166 | INFO     | test_TestCase:test_kk:22 - 运行结果
+2022-09-04 14:54:05.166 | ERROR    | test_TestCase:test_kk:30 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-07 22:06:59.835 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:06:59.838 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '登录成功', 'code': 200, 'token': 'good'} != <Response [200]>
+2022-09-07 22:07:00.401 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:07:00.402 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '用户名为空', 'code': 401, 'token': 'bad'} != <Response [200]>
+2022-09-07 22:07:01.230 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:07:01.232 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '密码错误', 'code': 202, 'token': 'wrong'} != <Response [200]>
+2022-09-07 22:07:01.748 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:07:01.750 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != <Response [200]>
+2022-09-07 22:07:02.282 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:07:02.283 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != <Response [200]>
+2022-09-07 22:08:27.382 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:08:27.384 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '登录成功', 'code': 200, 'token': 'good'} != {'args': {}, 'data': '{"name": "lcy", "pass[390 chars]ost'}
+- {'code': 200, 'message': '登录成功', 'token': 'good'}
++ {'args': {},
++  'data': '{"name": "lcy", "password": 1234}',
++  'files': {},
++  'form': {},
++  'headers': {'Accept': '*/*',
++              'Accept-Encoding': 'gzip, deflate',
++              'Content-Length': '33',
++              'Content-Type': 'application/json',
++              'Host': 'httpbin.org',
++              'User-Agent': 'python-requests/2.24.0',
++              'X-Amzn-Trace-Id': 'Root=1-6318a5db-4e31b12f5841ef8617395ab5'},
++  'json': {'name': 'lcy', 'password': 1234},
++  'origin': '117.147.7.213',
++  'url': 'http://httpbin.org/post'}
+2022-09-07 22:08:27.888 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:08:27.890 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '用户名为空', 'code': 401, 'token': 'bad'} != {'args': {}, 'data': '{"name": "", "passwor[384 chars]ost'}
+- {'code': 401, 'message': '用户名为空', 'token': 'bad'}
++ {'args': {},
++  'data': '{"name": "", "password": 1234}',
++  'files': {},
++  'form': {},
++  'headers': {'Accept': '*/*',
++              'Accept-Encoding': 'gzip, deflate',
++              'Content-Length': '30',
++              'Content-Type': 'application/json',
++              'Host': 'httpbin.org',
++              'User-Agent': 'python-requests/2.24.0',
++              'X-Amzn-Trace-Id': 'Root=1-6318a5db-3491c0aa1a7c5d49069a5afb'},
++  'json': {'name': '', 'password': 1234},
++  'origin': '117.147.7.213',
++  'url': 'http://httpbin.org/post'}
+2022-09-07 22:08:28.407 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:08:28.409 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'args': {}, 'data': '{"name": "lcy", "pass[386 chars]ost'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
++ {'args': {},
++  'data': '{"name": "lcy", "password": ""}',
++  'files': {},
++  'form': {},
++  'headers': {'Accept': '*/*',
++              'Accept-Encoding': 'gzip, deflate',
++              'Content-Length': '31',
++              'Content-Type': 'application/json',
++              'Host': 'httpbin.org',
++              'User-Agent': 'python-requests/2.24.0',
++              'X-Amzn-Trace-Id': 'Root=1-6318a5dc-2d8a19a41248c36e30da2fbb'},
++  'json': {'name': 'lcy', 'password': ''},
++  'origin': '117.147.7.213',
++  'url': 'http://httpbin.org/post'}
+2022-09-07 22:08:28.927 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:08:28.928 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'args': {}, 'data': '{"name": "lcy2", "pas[392 chars]ost'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
++ {'args': {},
++  'data': '{"name": "lcy2", "password": 1237}',
++  'files': {},
++  'form': {},
++  'headers': {'Accept': '*/*',
++              'Accept-Encoding': 'gzip, deflate',
++              'Content-Length': '34',
++              'Content-Type': 'application/json',
++              'Host': 'httpbin.org',
++              'User-Agent': 'python-requests/2.24.0',
++              'X-Amzn-Trace-Id': 'Root=1-6318a5dc-3b7c8e7c46fd31507285cab8'},
++  'json': {'name': 'lcy2', 'password': 1237},
++  'origin': '117.147.7.213',
++  'url': 'http://httpbin.org/post'}
+2022-09-07 22:08:29.456 | INFO     | test_TestCase:test_kk:24 - 运行结果
+2022-09-07 22:08:29.459 | ERROR    | test_TestCase:test_kk:32 - 断言错误{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'args': {}, 'data': '{"name": "lcy3", "pas[392 chars]ost'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
++ {'args': {},
++  'data': '{"name": "lcy3", "password": 1238}',
++  'files': {},
++  'form': {},
++  'headers': {'Accept': '*/*',
++              'Accept-Encoding': 'gzip, deflate',
++              'Content-Length': '34',
++              'Content-Type': 'application/json',
++              'Host': 'httpbin.org',
++              'User-Agent': 'python-requests/2.24.0',
++              'X-Amzn-Trace-Id': 'Root=1-6318a5dd-0b6da66a0d28e5da774e5240'},
++  'json': {'name': 'lcy3', 'password': 1238},
++  'origin': '117.147.7.213',
++  'url': 'http://httpbin.org/post'}

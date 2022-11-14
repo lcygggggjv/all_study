@@ -1,0 +1,34 @@
+2022-08-28 16:16:14.779 | ERROR    | test9.test0828:test11:68 - 断言失败结果False is not true
+2022-08-28 16:16:14.781 | ERROR    | test9.test0828:test22:87 - 断言失败结果{'message': '登录失败', 'coed': 301, 'token': 'bad token'} != {'message': '用户名为空', 'code': 301, 'token': 'bad token'}
+- {'coed': 301, 'message': '登录失败', 'token': 'bad token'}
+?      -                    ^^^^
+
++ {'code': 301, 'message': '用户名为空', 'token': 'bad token'}
+?     +                     ^^^^^
+
+2022-08-28 16:16:14.782 | INFO     | test9.test0828:test33:93 - 运行正常的
+2022-08-28 16:16:14.782 | ERROR    | test9.test0828:test33:102 - 断言用例3{'message': '密码为空', 'coed': 302, 'token': 'old token'} != {'message': '密码为空', 'code': 302, 'token': 'old token'}
+- {'coed': 302, 'message': '密码为空', 'token': 'old token'}
+?      -
+
++ {'code': 302, 'message': '密码为空', 'token': 'old token'}
+?     +
+
+2022-08-28 16:16:14.783 | INFO     | test9.test0828:test55:109 - 运行正常的
+2022-08-28 16:16:14.784 | ERROR    | test9.test0828:test55:118 - 断言用例5结果{'message': '登录成功', 'coed': 401, 'token': 'fxxk token'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'fxxk token'}
+- {'coed': 401, 'message': '登录成功', 'token': 'fxxk token'}
+?      -                    ^^^^
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'fxxk token'}
+?     +                     ^^^^^^^^
+
+2022-08-28 16:21:40.097 | ERROR    | test9.test0828:test11:68 - 断言失败结果False is not true
+2022-08-28 16:21:40.100 | ERROR    | test9.test0828:test22:87 - 断言失败结果{'message': '登录失败', 'code': 301, 'token': 'bad token'} != {'message': '用户名为空', 'code': 301, 'token': 'bad token'}
+- {'code': 301, 'message': '登录失败', 'token': 'bad token'}
+?                           ^^^^
+
++ {'code': 301, 'message': '用户名为空', 'token': 'bad token'}
+?                           ^^^^^
+
+2022-08-28 16:21:40.100 | INFO     | test9.test0828:test33:93 - 运行正常的
+2022-08-28 16:21:40.100 | INFO     | test9.test0828:test55:109 - 运行正常的

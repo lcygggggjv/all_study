@@ -1,0 +1,29 @@
+
+#域名
+host: "http: //test2.teletraan.io"
+
+#端口
+port: 3306
+
+#数据库地址
+database address: {"url": "mysql//localhost:192.168.0.1"}
+
+database address1:
+    url: "mysql//localhost:192.168.0.1"
+
+#数据库端口
+database port: {"port": 3306}
+
+#数据库用户名
+database username: {"username": "lcy","id": 001 ,"company id": 9470}
+
+database username1:
+      username: "lcy"
+      id : 001
+      company id : 9470
+
+#数据库密码
+database passwrd: {"pwd": 123456}
+
+
+

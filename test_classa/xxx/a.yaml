@@ -1,0 +1,14 @@
+
+
+
+post : 3306
+
+host : "http://www.baidu.com"
+
+database: {"zic":"kk"}
+
+
+data:
+   da: "lll"
+   hs : "das"
+   kk: 123

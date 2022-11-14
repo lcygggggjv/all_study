@@ -1,0 +1,34 @@
+#字符串，值加引号
+host: "http: //127.0.0.1"
+#键，值都加引号
+"host1": "http: //www.baidu.com"
+
+
+#数字类型
+port: 8080
+
+#布尔类型
+wifi: true
+
+#什么都没有
+abc: null
+
+#数组  冒号
+list :  ["柠檬班","学员","lcy"]
+
+#数组2
+list2:
+  -音乐
+  -电影
+  -学习
+
+#数据库配置
+database:
+  url: "localhost"
+  port1: 3306
+  name: "lcyzz"
+  usname: "CR7"
+  pwd: 123456
+
+
+database1: {"url": "localhost","post":8080,"id": 001}

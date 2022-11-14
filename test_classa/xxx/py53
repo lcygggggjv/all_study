@@ -1,0 +1,21 @@
+2022-08-30 23:12:38.877 | ERROR    | test_ddt:testxx:68 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '登录成功', 'code': 200, 'token': 'great token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?            ^              ^^
+
++ {'code': 200, 'message': '登录成功', 'token': 'great token'}
+?            ^              ^^^^
+
+2022-08-30 23:12:53.153 | ERROR    | test_ddt:testxx:68 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '登录成功', 'code': 200, 'token': 'great token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?            ^              ^^
+
++ {'code': 200, 'message': '登录成功', 'token': 'great token'}
+?            ^              ^^^^
+
+2022-08-30 23:14:29.801 | ERROR    | test_ddt:testxx:68 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '登录成功', 'code': 200, 'token': 'great token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?            ^              ^^
+
++ {'code': 200, 'message': '登录成功', 'token': 'great token'}
+?            ^              ^^^^
+

@@ -1,0 +1,208 @@
+2022-09-02 23:21:32.943 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:21:32.944 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:21:32.944 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:21:32.945 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-02 23:21:32.947 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:21:32.947 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-02 23:21:32.948 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:21:32.949 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-02 23:23:04.780 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:23:04.780 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:23:04.781 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:23:04.781 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-02 23:23:04.784 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:23:04.786 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-02 23:23:04.788 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:23:04.789 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-02 23:30:47.200 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:30:47.201 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:30:47.201 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:30:47.202 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-02 23:30:47.207 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:30:47.209 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-02 23:30:47.210 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-02 23:30:47.211 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:40:44.280 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:40:44.280 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:40:44.280 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:40:44.281 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-04 10:40:44.305 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:40:44.306 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:40:44.307 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:40:44.308 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:47:26.224 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:47:26.224 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:47:26.225 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:47:26.229 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-04 10:47:26.240 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:47:26.241 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:47:26.245 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:47:26.245 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:50:00.414 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:50:00.414 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:50:00.414 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:50:00.415 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-04 10:50:00.417 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:50:00.417 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:50:00.418 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:50:00.419 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:52:53.969 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:52:53.969 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:52:53.970 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:52:53.970 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-04 10:52:53.972 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:52:53.973 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 10:52:53.973 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 10:52:53.974 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 14:46:42.016 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 14:46:42.016 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 14:46:42.017 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 14:46:42.017 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '密码错误', 'code': 202, 'token': 'wrong'} != {'message': '密码为空', 'code': 401, 'token': 'wrong'}
+- {'code': 202, 'message': '密码错误', 'token': 'wrong'}
+?          ^ ^                ^^
+
++ {'code': 401, 'message': '密码为空', 'token': 'wrong'}
+?          ^ ^                ^^
+
+2022-09-04 14:46:42.025 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 14:46:42.025 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+
+2022-09-04 14:46:42.026 | INFO     | test_logins:testxx:25 - 运行结果
+2022-09-04 14:46:42.026 | ERROR    | test_logins:testxx:36 - 错误的断言结果{'message': '全错误', 'code': 203, 'token': 'bad best'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'very bad'}
+- {'code': 203, 'message': '全错误', 'token': 'bad best'}
+?          ^ ^              ^                  -----
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'very bad'}
+?          ^ ^              ^^^^^^               +++++
+

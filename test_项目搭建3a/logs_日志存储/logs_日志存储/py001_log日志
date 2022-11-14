@@ -1,0 +1,17 @@
+2022-09-15 22:55:57.329 | ERROR    | test_unittestCase22:test_k1:43 - 断言结果{'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1', 't[96 chars]5999} != {'access_token': 'ef4a4792-ed0a-4273-9d7c-cbe57aa6891d', 't[96 chars]5999}
+- {'access_token': '5a8c22ff-2078-4e02-a4dd-dd59daddd3c1',
++ {'access_token': 'ef4a4792-ed0a-4273-9d7c-cbe57aa6891d',
+   'expires_in': 1295999,
+-  'refresh_token': '2e3e537d-427b-4856-b7bd-e1e3ad3394c8',
++  'refresh_token': '202aff1c-b0e2-48b7-b8a8-b849b2da7880',
+   'token_type': 'bearer'}
+2022-09-16 00:14:59.975 | ERROR    | test_unittestCase:test_kk:46 - 断言结果{'access_token': '5a8c22ff-2078-4e02-a4dd[114 chars]5999} != '{"access_token":"d859a076-6ed7-48b7-b5d8[109 chars]999}'
+2022-09-16 00:17:44.493 | ERROR    | test_unittestCase:test_kk:46 - 断言结果{'access_token': '5a8c22ff-2078-4e02-a4dd[114 chars]5999} != '{"access_token":"e9a2b16a-1216-4ea2-81f5[109 chars]999}'
+2022-09-16 00:19:14.030 | ERROR    | test_unittestCase:test_kk:46 - 断言结果'{"access_token":"5a8c22ff-2078-4e02-a4dd-dd59daddd3c1","to[91 chars]999}' != '{"access_token":"1cef9cd1-7e4d-4529-abb3-83e36bb4fcf2","to[91 chars]999}'
+- {"access_token":"5a8c22ff-2078-4e02-a4dd-dd59daddd3c1","token_type":"bearer","refresh_token":"2e3e537d-427b-4856-b7bd-e1e3ad3394c8","expires_in":1295999}
++ {"access_token":"1cef9cd1-7e4d-4529-abb3-83e36bb4fcf2","token_type":"bearer","refresh_token":"ec2b3032-73a8-4c8b-ac79-63b4a34b4121","expires_in":1295999}
+
+2022-09-16 00:19:14.520 | ERROR    | test_unittestCase:test_kk:46 - 断言结果'Incorrect account or password' != 'The verification code is wrong or expired'
+- Incorrect account or password
++ The verification code is wrong or expired
+

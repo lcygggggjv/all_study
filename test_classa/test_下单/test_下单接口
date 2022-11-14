@@ -1,0 +1,27 @@
+
+1  登录   /login
+{"principal":"15675500781","credentials":"123456","appType":3,"loginType":0}
+
+
+2商品详情  /prod/prodInfo?prodId=4314
+
+
+3确认下单  /p/order/confirm
+
+{"addrId":0,"orderItem":{"prodId":4314,"skuId":4765,"prodCount":1,"shopId":1},"couponIds":[],"isScorePay":0,"userChangeCoupon":0,"userUseScore":0,"uuid":"d5eaca4a-fed2-4504-8a23-8c1a3a601a1c"}
+
+
+4 确认订单  /p/order/submit
+
+{"orderShopParam":[{"remarks":"","shopId":1}],"uuid":"d5eaca4a-fed2-4504-8a23-8c1a3a601a1c"}
+
+
+5 支付  /p/order/pay
+
+{"payType":3,"orderNumbers":"1580213623220080640"}
+
+
+
+
+
+

@@ -1,0 +1,163 @@
+2022-08-23 23:05:21.015 | INFO     | test45:test_11:124 - 记录下面的运行结果
+2022-08-23 23:05:21.015 | ERROR    | test45:test_11:131 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:21:28.498 | INFO     | test45:test_11:125 - 记录下面的运行结果
+2022-08-23 23:21:28.500 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:21:28.502 | INFO     | test45:test_12:137 - 记录下面的运行结果
+2022-08-23 23:21:28.502 | ERROR    | test45:test_12:144 - 断言coding在actual结果False is not true
+2022-08-23 23:22:47.970 | INFO     | test45:test_11:125 - 记录下面的运行结果
+2022-08-23 23:22:47.971 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:22:47.973 | INFO     | test45:test_12:137 - 记录下面的运行结果
+2022-08-23 23:22:47.973 | ERROR    | test45:test_12:144 - 断言coding在actual结果False is not true
+2022-08-23 23:26:34.331 | INFO     | test45:test_11:125 - 记录下面的运行结果
+2022-08-23 23:26:34.332 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:26:34.335 | INFO     | test45:test_12:137 - 记录下面的运行结果
+2022-08-23 23:26:34.335 | ERROR    | test45:test_12:144 - 断言coding在actual结果False is not true
+2022-08-23 23:31:37.320 | INFO     | test45:test_11:125 - 记录下面的运行结果
+2022-08-23 23:31:37.321 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:31:37.323 | INFO     | test45:test_12:136 - 记录下面的运行结果
+2022-08-23 23:31:37.323 | ERROR    | test45:test_12:145 - 断言coding在actual结果False is not true
+2022-08-23 23:32:21.365 | INFO     | test45:test_11:125 - 记录下面的运行结果1
+2022-08-23 23:32:21.366 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:32:21.368 | INFO     | test45:test_12:136 - 记录下面的运行结果2
+2022-08-23 23:32:21.368 | ERROR    | test45:test_12:145 - 断言coding在actual结果False is not true
+2022-08-23 23:32:48.067 | INFO     | test45:test_11:125 - 记录下面的运行结果1
+2022-08-23 23:32:48.069 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:32:48.070 | INFO     | test45:test_12:136 - 记录下面的运行结果2
+2022-08-23 23:32:48.071 | INFO     | test45:test_12:138 - 记录下面的运行结果2
+2022-08-23 23:32:48.071 | ERROR    | test45:test_12:145 - 断言coding在actual结果False is not true
+2022-08-23 23:33:58.375 | INFO     | test45:test_11:125 - 记录下面的运行结果1
+2022-08-23 23:33:58.376 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:33:58.379 | INFO     | test45:test_12:136 - 记录下面的运行结果2
+2022-08-23 23:33:58.382 | INFO     | test45:test_12:138 - 记录下面的运行结果2
+2022-08-23 23:33:58.383 | ERROR    | test45:test_12:145 - 断言coding在actual结果False is not true
+2022-08-23 23:34:44.628 | INFO     | test45:test_11:125 - 记录下面的运行结果1
+2022-08-23 23:34:44.630 | ERROR    | test45:test_11:132 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-23 23:34:44.632 | INFO     | test45:test_12:136 - 记录下面的运行结果2
+2022-08-23 23:34:44.632 | ERROR    | test45:test_12:143 - 断言coding在actual结果False is not true
+2022-08-24 20:41:16.101 | INFO     | test45:test_11:59 - 记录下面的运行结果1
+2022-08-24 20:41:16.127 | ERROR    | test45:test_11:66 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-24 20:41:16.143 | INFO     | test45:test_12:70 - 记录下面的运行结果2
+2022-08-24 20:41:16.144 | ERROR    | test45:test_12:77 - 断言coding在actual结果False is not true
+2022-08-24 20:57:18.428 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 20:57:18.432 | ERROR    | test45:test_11:70 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-24 20:57:18.438 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 20:57:18.439 | ERROR    | test45:test_12:81 - 断言coding在actual结果False is not true
+2022-08-24 20:57:42.683 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 20:57:42.684 | ERROR    | test45:test_11:70 - 断言等于失败的结果{'message': '用户名或密码错误', 'code': '401', 'token': 'bad2 token'} != {'message': '登录成功', 'code': 201, 'token': 'great token'}
+- {'code': '401', 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^^  -              ^^^^^^^^             ^ ^^
+
++ {'code': 201, 'message': '登录成功', 'token': 'great token'}
+?          ^                ^^^^             ^^^ ^
+
+2022-08-24 21:02:36.166 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:09:14.237 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:11:35.814 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:12:19.471 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:12:47.189 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:14:09.508 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:16:50.290 | INFO     | test45:test_11:62 - 记录下面的运行结果1
+2022-08-24 21:17:15.829 | INFO     | test45:test_11:62 - 记录下面的运行结果1
+2022-08-24 21:20:50.092 | INFO     | test45:test_11:54 - 记录下面的运行结果1
+2022-08-24 21:22:45.125 | INFO     | test45:test_11:54 - 记录下面的运行结果1
+2022-08-24 21:55:40.318 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:55:40.319 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 21:55:40.319 | ERROR    | test45:test_12:81 - 断言coding在actual结果False is not true
+2022-08-24 21:56:36.572 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 21:56:36.573 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 21:56:36.573 | ERROR    | test45:test_12:81 - 断言coding在actual结果False is not true
+2022-08-24 21:58:25.631 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 21:58:25.632 | ERROR    | test45:test_12:81 - 断言coding在actual结果False is not true
+2022-08-24 22:09:46.108 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 22:09:46.109 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 22:09:46.109 | ERROR    | test45:test_12:81 - 断言coding在actual结果False is not true
+2022-08-24 22:22:52.142 | INFO     | test45:test_76:86 - 记录写的
+2022-08-24 22:22:52.142 | ERROR    | test45:test_76:93 - 断言3的'id' not found in 'excepted'
+2022-08-24 22:23:08.184 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 22:23:08.184 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 22:23:08.185 | ERROR    | test45:test_12:81 - 断言coding在actual结果False is not true
+2022-08-24 22:23:08.188 | INFO     | test45:test_76:86 - 记录写的
+2022-08-24 22:23:08.188 | ERROR    | test45:test_76:93 - 断言3的'id' not found in 'excepted'
+2022-08-24 22:25:28.850 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 22:25:28.850 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 22:25:28.851 | ERROR    | test45:test_12:81 - 断言coding在actual结果False is not true
+2022-08-24 22:25:28.864 | INFO     | test45:test_76:86 - 记录写的
+2022-08-24 22:25:28.865 | ERROR    | test45:test_76:93 - 断言3的'id' not found in 'excepted'
+2022-08-24 22:29:49.522 | INFO     | test45:test_76:87 - 记录写的
+2022-08-24 22:29:49.522 | ERROR    | test45:test_76:94 - 断言3的'id' not found in 'excepted'
+2022-08-24 22:30:02.686 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 22:30:02.687 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 22:30:02.687 | ERROR    | test45:test_12:82 - 断言coding在actual结果False is not true
+2022-08-24 22:30:02.689 | INFO     | test45:test_76:87 - 记录写的
+2022-08-24 22:30:02.690 | ERROR    | test45:test_76:94 - 断言3的'id' not found in 'excepted'
+2022-08-24 22:32:26.414 | INFO     | test45:test_11:63 - 记录下面的运行结果1
+2022-08-24 22:32:26.415 | INFO     | test45:test_12:74 - 记录下面的运行结果2
+2022-08-24 22:32:26.415 | ERROR    | test45:test_12:82 - 断言coding在actual结果False is not true
+2022-08-24 22:32:26.417 | INFO     | test45:test_76:87 - 记录写的
+2022-08-24 22:32:26.417 | ERROR    | test45:test_76:94 - 断言3的<built-in function id> not found in {'message': '登录成功', 'code': 200, 'token': 'great token'}

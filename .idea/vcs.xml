@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git_" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_pytest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_pytest2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_web_selenium" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_项目搭建5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_项目搭建设计" vcs="Git" />
+  </component>
+</project>

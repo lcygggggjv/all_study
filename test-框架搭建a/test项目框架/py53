@@ -1,0 +1,96 @@
+2022-08-31 00:29:32.005 | ERROR    | test_ddt:testxx:96 - 错误的断言结果{'usname': 'lcy', 'pwd': 123456, 'expected'[54 chars]en'}} != {'message': '登录成功', 'code': 200, 'token': 'great token'}
+- {'expected': {'code': 200, 'message': '登录成功', 'token': 'great token'},
+? -------------                                                        -
+
++ {'code': 200, 'message': '登录成功', 'token': 'great token'}
+-  'pwd': 123456,
+-  'usname': 'lcy'}
+2022-08-31 00:29:32.010 | ERROR    | test_ddt:testxx:96 - 错误的断言结果{'usname': 'lcy', 'pwd': 123456, 'expected'[54 chars]en'}} != {'message': '登录成功', 'code': 200, 'token': 'great token'}
+- {'expected': {'code': 200, 'message': '登录成功', 'token': 'great token'},
+? -------------                                                        -
+
++ {'code': 200, 'message': '登录成功', 'token': 'great token'}
+-  'pwd': 123456,
+-  'usname': 'lcy'}
+2022-08-31 00:29:32.012 | ERROR    | test_ddt:testxx:96 - 错误的断言结果{'usname': 'lcy', 'pwd': 123456, 'expected'[52 chars]en'}} != {'message': '登录成功', 'code': 200, 'token': 'great token'}
+- {'expected': {'code': 201, 'message': 'mm', 'token': 'great token'},
+? -------------           ^              ^^                          -
+
++ {'code': 200, 'message': '登录成功', 'token': 'great token'}
+?            ^              ^^^^
+
+-  'pwd': 123456,
+-  'usname': 'lcy'}
+2022-08-31 00:29:32.017 | ERROR    | test_ddt:testxx:96 - 错误的断言结果{'usname': 'lcy', 'pwd': 123456, 'expected'[54 chars]en'}} != {'message': '登录成功', 'code': 200, 'token': 'great token'}
+- {'expected': {'code': 200, 'message': '登录成功', 'token': 'great token'},
+? -------------                                                        -
+
++ {'code': 200, 'message': '登录成功', 'token': 'great token'}
+-  'pwd': 123456,
+-  'usname': 'lcy'}
+2022-08-31 00:54:48.223 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': '用户名为空', 'code': 401, 'token': 'bad token'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'bad2 token'}
+- {'code': 401, 'message': '用户名为空', 'token': 'bad token'}
+?                              ^^
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?                              ^^^^^                +
+
+2022-08-31 00:54:48.233 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'bad2 token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?          ^                ^^             ^^^ ^
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?          ^                ^^^^^^^^             ^ ^^
+
+2022-08-31 00:54:48.236 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': '用户名或密码错误', 'code': 401, 'token': 'bad token'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'bad2 token'}
+- {'code': 401, 'message': '用户名或密码错误', 'token': 'bad token'}
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?                                                   +
+
+2022-08-31 01:00:39.147 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '密码为空', 'code': 401, 'token': 'bad token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?          ^                ^^             ^^^ ^
+
++ {'code': 401, 'message': '密码为空', 'token': 'bad token'}
+?          ^                ^^^^             ^ ^
+
+2022-08-31 01:00:39.150 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': '用户名或密码错误', 'code': 401, 'token': 'bad token'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'bad2 token'}
+- {'code': 401, 'message': '用户名或密码错误', 'token': 'bad token'}
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?                                                   +
+
+2022-08-31 01:02:03.747 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': '用户名为空', 'code': 401, 'token': 'bad_token'} != {'message': '用户名为空', 'code': 401, 'token': 'bad token'}
+- {'code': 401, 'message': '用户名为空', 'token': 'bad_token'}
+?                                                ^
+
++ {'code': 401, 'message': '用户名为空', 'token': 'bad token'}
+?                                                ^
+
+2022-08-31 01:02:03.750 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '密码为空', 'code': 401, 'token': 'bad token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?          ^                ^^             ^^^ ^
+
++ {'code': 401, 'message': '密码为空', 'token': 'bad token'}
+?          ^                ^^^^             ^ ^
+
+2022-08-31 01:02:03.753 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': '用户名或密码错误', 'code': 401, 'token': 'bad_token'} != {'message': '用户名或密码错误', 'code': 401, 'token': 'bad2 token'}
+- {'code': 401, 'message': '用户名或密码错误', 'token': 'bad_token'}
+?                                                   ^
+
++ {'code': 401, 'message': '用户名或密码错误', 'token': 'bad2 token'}
+?                                                   ^^
+
+2022-08-31 01:03:58.670 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '密码为空', 'code': 401, 'token': 'bad token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?          ^                ^^             ^^^ ^
+
++ {'code': 401, 'message': '密码为空', 'token': 'bad token'}
+?          ^                ^^^^             ^ ^
+
+2022-09-09 23:31:23.943 | ERROR    | test_ddt:testxx:97 - 错误的断言结果{'message': 'mm', 'code': 201, 'token': 'great token'} != {'message': '密码为空', 'code': 401, 'token': 'bad token'}
+- {'code': 201, 'message': 'mm', 'token': 'great token'}
+?          ^                ^^             ^^^ ^
+
++ {'code': 401, 'message': '密码为空', 'token': 'bad token'}
+?          ^                ^^^^             ^ ^
+

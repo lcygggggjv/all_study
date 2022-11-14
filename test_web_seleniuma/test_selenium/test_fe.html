@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PY:LCY</title>
+</head>
+<body>
+<!-- 接口通过form嵌套在body里  在里面传接口，写入方式-->
+<form action="http://httpbin.org/post"  method="post">
+<!-- name键值-->
+
+    姓名<input name="usname">
+    年龄<input type="password" name="age" >
+<!-- 按钮单选 radio  属性都是gender,value是接口传的参-->
+    性别<input type="radio" name="gender" value="man">男  <input type="radio" name="gender" value="woman" >女
+<!--换行div-->
+    <div>
+    职位：
+     <input  type="checkbox" name="position" value="fe">前端
+     <input  type="checkbox" name="position" value="be">后端
+     <input  type="checkbox" name="position" value="test">测试
+    </div>
+<!--附件上传 通过类型选择file-->
+    <div>
+        <input type="file" name="file">
+
+    </div>
+
+    <div>
+        <input type="submit">
+    </div>
+</form>
+    <h1>
+        这是标题
+
+    </h1>
+
+    <p>
+        这是段落
+           段落
+    </p>
+
+    <ul>
+        <li>列表</li>
+
+    </ul>
+
+    <table>
+        <tr>
+            表格
+            <td>A1</td>
+            <td>A8</td>
+        </tr>
+
+    </table>
+   <!-- 放在a标签里，用href   -->
+    <img src="截图.png"  width="300px"  height="200px">
+
+    <a  href="http://baidu.com"> 点这里，跳转  </a>
+
+    <div>vd</div>
+     <!--图片用img单个， src-=保存图片，width宽度，height，高度>
+
+    <img src="截图.png"  width="300px"  height="200px">
+
+</body>
+</html>
