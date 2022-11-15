@@ -4,7 +4,7 @@ import openpyxl
 
 from  openpyxl.worksheet.worksheet import Worksheet
 
-from test_项目搭建4.config.config import config
+from test_project_5.config.config import config
 
 def read_excels(filename,sheetname="Sheet1"):
 

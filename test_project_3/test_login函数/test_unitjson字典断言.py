@@ -7,11 +7,11 @@ import unittestreport
 
 from unittestreport import ddt,list_data
 
-from test_项目搭建3.test_读取excel.test_excel import read_book
+from test_project_3.test_读取excel.test_excel import read_book
 
-from test_项目搭建3.config.Config import config
-from test_项目搭建3.common.setting import logger
-from test_项目搭建3.test_requests.test_request接口 import logings
+from test_project_3.config.Config import config
+from test_project_3.common.setting import logger
+from test_project_3.test_requests.test_request接口 import logings
 
 import json
 

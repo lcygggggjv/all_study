@@ -20,7 +20,7 @@ def read_book(filename,sheetname="Sheet1"):
     return data
 
 
-from test_项目搭建3.config.Config import config
+from test_project_3.config.Config import config
 
 if __name__=="__main__":
 

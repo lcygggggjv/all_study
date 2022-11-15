@@ -3,7 +3,7 @@ import openpyxl
 
 from  openpyxl.worksheet.worksheet import Worksheet
 
-from test_项目搭建设计.config.setting import Config
+from test_project_a.config.setting import Config
 
 def read2_excel(filename,sheetname="Sheet1"):
 

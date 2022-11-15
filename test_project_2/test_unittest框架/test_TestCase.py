@@ -1,12 +1,12 @@
 
 import unittest
 import unittestreport
-from test_项目搭建2.test_被测函数.test_logs函数 import logins
-from test_项目搭建2.test_读取excel.test_excel import reads_excel
+from test_project_2.test_被测函数.test_logs函数 import logins
+from test_project_2.test_读取excel.test_excel import reads_excel
 from unittestreport import ddt,list_data
-from test_项目搭建2.config.seetin_常用变量 import Config
-from test_项目搭建2.common2.log处理 import logger
-from test_项目搭建2.aps_接口s.api_接口 import logink
+from test_project_2.config.seetin_常用变量 import Config
+from test_project_2.common2.log处理 import logger
+from test_project_2.aps_接口s.api_接口 import logink
 
 
 ca=Config.File_name

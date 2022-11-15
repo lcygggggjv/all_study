@@ -1,10 +1,10 @@
 
 import unittest
 
-from test_项目搭建设计.common.logs_处理 import logger #导入日志的方法
-from  test_项目搭建设计.common.excel_2封装函数 import read2_excel  #导入excel
-from test_项目搭建设计.test_测试函数.test_函数方法1 import testlogA  #导入测试函数
-from test_项目搭建设计.config.setting import Config
+from test_project_a.common.logs_处理 import logger #导入日志的方法
+from  test_project_a.common.excel_2封装函数 import read2_excel  #导入excel
+from test_project_a.test_测试函数.test_函数方法1 import testlogA  #导入测试函数
+from test_project_a.config.setting import Config
 
 
 filed=Config.CASE_FILE   #这里从配置文件，导入配置文件，方便修改

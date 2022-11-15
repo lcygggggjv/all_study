@@ -4,11 +4,11 @@ import unittest
 
 from unittestreport import ddt,list_data
 
-from test_项目搭建4.config.config import config
+from test_project_5.config.config import config
 
-from test_项目搭建4.common.setting import logger
+from test_project_5.common.setting import logger
 
-from test_项目搭建4.test_读取excel.test_excel import read_excels
+from test_project_5.test_read_excel.test_excel import read_excels
 
 import requests
 import json

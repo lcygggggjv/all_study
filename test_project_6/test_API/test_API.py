@@ -8,8 +8,8 @@ import pymysql
 import requests
 from pymysql.cursors import DictCursor
 
-from test_项目搭建5.common.db_connect import conect_sql
-from test_项目搭建5.config.configs import config
+from test_project_6.common.db_connect import conect_sql
+from test_project_6.config.configs import config
 
 
 class API:

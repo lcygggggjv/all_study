@@ -1,6 +1,6 @@
 
 
-from test_项目搭建2.common2.requests_访问接口 import send_requests
+from test_project_2.common2.requests_访问接口 import send_requests
 
 def logink(usname,pwd):
 
