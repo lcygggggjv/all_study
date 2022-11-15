@@ -6,12 +6,12 @@ from selenium import webdriver
 from test_web_selenium.config.config import config
 import keyboard
 
-from test_web_selenium.page.login_page import login_page
+# from test_web_selenium.page.login_page import login_page
 from test_web_selenium.setting_faker import test_idea
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from test_web_selenium.thing_list.conftest import logins_page, browser
+# from test_web_selenium.thing_list.conftest import logins_page, browser
 
 
 class Test_thing_Page():
