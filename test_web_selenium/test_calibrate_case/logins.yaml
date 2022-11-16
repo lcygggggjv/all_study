@@ -1,0 +1,142 @@
+
+#测试步骤
+#action对应basepage里封装的方法名称！！！
+#每一个参数名称都要对应方法里的名称
+  #所填写元素要用列表写
+
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: ''
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+-
+  #断言   yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath','(//p[text()="请填写该必填项"])[1]']
+    expected: 请填写该必填项
+
+
+
+#yaml分隔符  第二个用例
+---
+
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: error_code
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+-
+  #断言   yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath','//div[text()="企业标识符错误，请重新填写"]']
+    expected: 企业标识符错误，请重新填写
+
+
+
+
+#第三个用例
+---
+
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: error_code
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+-
+  #断言   yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath','//div[text()="用户不存在"]']
+    expected: 用户不存在
