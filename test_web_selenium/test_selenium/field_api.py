@@ -2,11 +2,15 @@ import faker
 from selenium.webdriver.common.by import By
 
 from selenium import webdriver
-
+from selenium.webdriver import Chrome
 from test_web_selenium.config.config import config
 
 
 class fields:
+
+    def __init__(self,driver:Chrome):
+
+        self.driver=driver
 
     def created_fd(self):
 
@@ -67,7 +71,7 @@ class fields:
     def mock_field_name(self):
         fk = faker.Faker(locale=['zh_CN'])
 
-        filed_name = fk.name()
+        filed_name = fk.word()
 
         return filed_name
 
