@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="test_class.xxx.test_ddt.testlog98 的 Unittest" type="tests" factoryName="Unittests" singleton="false" nameIsGenerated="true">
+  <configuration default="false" name="Unittests for test_class.xxx.test_ddt.testlog98" type="tests" factoryName="Unittests" singleton="false" nameIsGenerated="true">
     <module name="pycharm-workspace" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
