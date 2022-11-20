@@ -20,7 +20,10 @@ class BasePage:
     account=(By.NAME, 'account')
     password=(By.NAME, 'password')
     submit=(By.XPATH, "//button[@type='submit']")
-    eamicon=(By.XPATH, '//div[@class="css-q37yd2"]//img')
+    eamicon=('xpath', '//div[@class="css-q37yd2"]//img')
+    pz=('xpath', '//p[text()="基础配置"]')
+    category1=('xpath', '(//p[text()="资产类别"])[1]')
+    category2=('xpath', '(//p[text()="资产类别"])[2]')
 
     # """浏览器通用操作  Chrome的类，浏览器driver对象"""
     def __init__(self,driver:Chrome):
@@ -85,7 +88,6 @@ class BasePage:
     def click(self,locator):
         """click点击"""
         el=self.get_element(locator)
-        el.click()
         try:
             el.click()
 
@@ -117,6 +119,15 @@ class BasePage:
         ActionChains(self.driver).double_click(el).perform()   #action方法双击
         return self
 
+
+    def clear(self,locator):
+        """清除"""
+        el=self.get_element(locator)
+        el.clear()
+
+        return self
+
+
     def login_thingList(self):
 
         self.driver.get(config.sit_url)
@@ -131,6 +142,26 @@ class BasePage:
         self.driver.find_element(*self.eamicon).click()
 
         return self
+
+
+    def category_login(self):
+
+        self.driver.get(config.sit_url)
+        self.driver.implicitly_wait(10)  # 智能等待
+
+        self.driver.find_element(*self.tentcode).send_keys(config.tenantCode)  #加个*号，元组解包
+        self.driver.find_element(*self.account).send_keys(config.account)
+        self.driver.find_element(*self.password).send_keys(config.password)
+        self.driver.find_element(*self.submit).click()
+
+        # driver.find_element(By.XPATH,'//div[@class="css-q37yd2"][3]//img').click()  #前面有管理中心的
+        self.driver.find_element(*self.eamicon).click()
+        self.driver.find_element(*self.pz).click()
+        self.driver.find_element(*self.category1).click()
+        self.driver.find_element(*self.category2).click()
+
+        return self
+
 
 
 
@@ -212,5 +243,6 @@ class BasePage:
 
     def asser_el_text_equal(self,locator,expected):
             #断言，传元素吗，和预期加个
+        self.show_wait_el_clickable(locator)
         el=self.get_element(locator)
-        assert expected ==el.text   #等于获得的元素的文本
+        assert expected == el.text   #等于获得的元素的文本

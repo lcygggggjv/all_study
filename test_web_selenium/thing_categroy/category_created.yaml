@@ -1,0 +1,539 @@
+
+#测试步骤
+#action对应basepage里封装的方法名称！！！
+#每一个参数名称都要对应方法里的名称
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第10步，打开新增页面
+  action: click
+  params:
+    locator: ['xpath','//span[@aria-label="新增下属类别"]//*[name()="svg"]']
+
+-
+  #第11步 输入类别名称
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: new12345
+
+-
+  #第12步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: crt_112
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//div[text()="新增成功"]']
+    expected: 新增成功
+
+
+
+
+
+---
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步，打开新增页面
+  action: click
+  params:
+    locator: ['xpath','//span[@aria-label="新增下属类别"]//*[name()="svg"]']
+
+-
+  #第10步 输入类别名称
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: ''
+
+-
+  #第11步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: 00999
+
+-
+  #第12步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="请输入该必填项"]']
+    expected: 请输入该必填项
+
+
+
+
+---
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步，打开新增页面
+  action: click
+  params:
+    locator: ['xpath','//span[@aria-label="新增下属类别"]//*[name()="svg"]']
+
+-
+  #第10步 输入类别名称
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: 公司资产
+
+-
+  #第11步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: 123456
+
+-
+  #第12步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="当前类别名称已被使用"]']
+    expected: 当前类别名称已被使用
+
+
+
+
+---
+
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步，打开新增页面
+  action: click
+  params:
+    locator: ['xpath','//span[@aria-label="新增下属类别"]//*[name()="svg"]']
+
+-
+  #第10步 输入类别名称
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: 新的类别名称7
+
+-
+  #第11步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: 111
+
+-
+  #第12步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="当前类别编码已被使用"]']
+    expected: 当前类别编码已被使用
+
+
+
+---
+
+
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步，打开新增页面
+  action: click
+  params:
+    locator: ['xpath','//span[@aria-label="新增下属类别"]//*[name()="svg"]']
+
+-
+  #第10步 输入类别名称
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: 技术更新
+
+-
+  #第11步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: 汉字
+
+-
+  #第12步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="请输入由大小写英文字母、数字、及特殊符号组成的字符串(特殊符号包括 - ~ · / \ | _ ),比如:Abc123、A-123"]']
+    expected: 请输入由大小写英文字母、数字、及特殊符号组成的字符串(特殊符号包括 - ~ · / \ | _ ),比如:Abc123、A-123
+
+
+
+
+
+

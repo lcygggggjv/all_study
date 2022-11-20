@@ -13,7 +13,7 @@ items=[
     {"tentcode":"cr7","account":"error_acount","passwd":"teletraan","expected":"用户不存在"},
     {"tentcode":"cr7","account":"eam111","passwd":"error_pwd","expected":"密码错误，请重新输入"}
 ]
-
+#pytest的数据驱动
 @pytest.mark.parametrize('item',items)
 def test_01_basepage(browser,item):
 
