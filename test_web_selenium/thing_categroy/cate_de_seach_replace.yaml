@@ -4,7 +4,7 @@
 #每一个参数名称都要对应方法里的名称
 
 -
-  #第一步，打开网页
+  #第一步，打开网页  删除失败，有被关联的资产
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -71,9 +71,9 @@
 
 -
   #第9步 先点击资产类别12选中,
-  action: click
+  action: move_to
   params:
-    locator: ['xpath','//p[text()="121212"]']
+    locator: ['xpath','(//button[@aria-label="删除该类别"]//*[name()="svg"])[8]']
 
 -
   #第10步，打开编辑页面
@@ -104,7 +104,7 @@
 
 
 -
-  #第一步，打开网页
+  #第一步，打开网页   删除成功
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -171,9 +171,9 @@
 
 -
   #第9步 先点击资产类别12选中,
-  action: click
+  action: move_to
   params:
-    locator: ['xpath','//p[text()="2323"]']
+    locator: ['xpath','(//button[@aria-label="删除该类别"]//*[name()="svg"])[6]']
 
 -
   #第10步，打开编辑页面
@@ -205,7 +205,7 @@
 
 
 -
-  #第一步，打开网页
+  #第一步，打开网页   替换表单
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -317,7 +317,7 @@
 
 
 -
-  #第一步，打开网页
+  #第一步，打开网页   替换表单详情
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -410,7 +410,7 @@
 
 
 -
-  #第一步，打开网页
+  #第一步，打开网页   搜索类别
   action: get_url
   params:
     url: http://teamsit.teletraan.io

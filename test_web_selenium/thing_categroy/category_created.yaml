@@ -4,7 +4,8 @@
 #每一个参数名称都要对应方法里的名称
 
 -
-  #第一步，打开网页
+
+  #第一步，打开网页  新增类别
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -80,14 +81,14 @@
   action: send_keys
   params:
     locator: ['xpath', '//input[@name="name"]']
-    word: new12345
+    word: 2283885
 
 -
   #第12步  输入类别编码
   action: send_keys
   params:
     locator: ['xpath', '//input[@name="code"]']
-    word: crt_112
+    word: cry384884
 
 -
   #第13步 点击确定
@@ -111,7 +112,7 @@
 ---
 
 -
-  #第一步，打开网页
+  #第一步，打开网页   新增必填
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -189,12 +190,6 @@
     locator: ['xpath', '//input[@name="name"]']
     word: ''
 
--
-  #第11步  输入类别编码
-  action: send_keys
-  params:
-    locator: ['xpath', '//input[@name="code"]']
-    word: 00999
 
 -
   #第12步 点击确定
@@ -217,7 +212,7 @@
 ---
 
 -
-  #第一步，打开网页
+  #第一步，打开网页   类别名称唯一
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -295,12 +290,6 @@
     locator: ['xpath', '//input[@name="name"]']
     word: 公司资产
 
--
-  #第11步  输入类别编码
-  action: send_keys
-  params:
-    locator: ['xpath', '//input[@name="code"]']
-    word: 123456
 
 -
   #第12步 点击确定
@@ -324,7 +313,7 @@
 
 
 -
-  #第一步，打开网页
+  #第一步，打开网页  新增编码唯一
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -395,12 +384,13 @@
   params:
     locator: ['xpath','//span[@aria-label="新增下属类别"]//*[name()="svg"]']
 
+
 -
-  #第10步 输入类别名称
   action: send_keys
   params:
     locator: ['xpath', '//input[@name="name"]']
-    word: 新的类别名称7
+    word: ok_goat
+
 
 -
   #第11步  输入类别编码
@@ -429,9 +419,8 @@
 ---
 
 
-
 -
-  #第一步，打开网页
+  #第一步，打开网页  新增编码特殊符号
   action: get_url
   params:
     url: http://teamsit.teletraan.io
@@ -503,11 +492,10 @@
     locator: ['xpath','//span[@aria-label="新增下属类别"]//*[name()="svg"]']
 
 -
-  #第10步 输入类别名称
   action: send_keys
   params:
     locator: ['xpath', '//input[@name="name"]']
-    word: 技术更新
+    word: dh_112
 
 -
   #第11步  输入类别编码

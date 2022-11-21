@@ -24,6 +24,8 @@ class BasePage:
     pz=('xpath', '//p[text()="基础配置"]')
     category1=('xpath', '(//p[text()="资产类别"])[1]')
     category2=('xpath', '(//p[text()="资产类别"])[2]')
+    area1 = ('xpath', '//p[text()="区域管理"]')
+    area2 = ('xpath', '//p[text()="tc"]')
 
     # """浏览器通用操作  Chrome的类，浏览器driver对象"""
     def __init__(self,driver:Chrome):
@@ -163,6 +165,24 @@ class BasePage:
         return self
 
 
+    def area_login(self):
+
+        self.driver.get(config.sit_url)
+        self.driver.implicitly_wait(10)  # 智能等待
+
+        self.driver.find_element(*self.tentcode).send_keys(config.tenantCode)  #加个*号，元组解包
+        self.driver.find_element(*self.account).send_keys(config.account)
+        self.driver.find_element(*self.password).send_keys(config.password)
+        self.driver.find_element(*self.submit).click()
+
+        # driver.find_element(By.XPATH,'//div[@class="css-q37yd2"][3]//img').click()  #前面有管理中心的
+        self.driver.find_element(*self.eamicon).click()
+        self.driver.find_element(*self.pz).click()
+        self.driver.find_element(*self.area1).click()
+        self.driver.find_element(*self.area2).click()
+
+        return self
+
 
 
     def drag_and_drop(self,start_locator,end_locator):
@@ -241,7 +261,7 @@ class BasePage:
         self.driver.execute_script(js,el)
         return self
 
-    def asser_el_text_equal(self,locator,expected):
+    def asser_el_text_equal(self,expected,locator):
             #断言，传元素吗，和预期加个
         self.show_wait_el_clickable(locator)
         el=self.get_element(locator)
