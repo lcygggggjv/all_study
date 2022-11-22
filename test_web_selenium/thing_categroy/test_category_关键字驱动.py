@@ -11,7 +11,7 @@ import pytest
 import yaml
 from test_web_selenium.common.basepage import BasePage
 
-
+#
 # with open('category.yaml',encoding='utf-8') as f:
 #
 #         steps=yaml.safe_load(f)  #，从yaml取出是字典
@@ -50,7 +50,7 @@ def test_update_clear(browser,steps):
         method=getattr(cate,action_name)
         method(**params)
 
-
+        time.sleep(1)
 
 
 
