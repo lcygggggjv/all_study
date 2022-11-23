@@ -21,3 +21,14 @@ def browser1():
 #     pages=login_page(browser1)
 #
 #     return pages
+
+
+
+@pytest.fixture(scope='class')
+def clas_setup():
+
+    driver=webdriver.Chrome()
+    driver.implicitly_wait(10)
+
+    yield driver
+    driver.quit()

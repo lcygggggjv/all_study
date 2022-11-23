@@ -8,15 +8,19 @@ from selenium.webdriver.common.by import By
 import time
 from test_web_selenium.config.config import config
 import faker
+
+from test_web_selenium.test_selenium.conftest import brw
 from test_web_selenium.test_selenium.field_api import fields
 import unittestreport
 import pytest
 
 
-class Test_created_filed(fields):
+# @pytest.fixture(scope='class')
+class Test_created_filed():
 
     def setup(self):
 
+        ds=fields(brw())
         self.created_fd()
 
         name=self.mock_field_name()   #实例调用mock方法
@@ -26,10 +30,10 @@ class Test_created_filed(fields):
 
     def test_created_TextField(self):   #文本输入
 
-        name = self.mock_field_name()  # 实例调用mock方法
-        self.name = name   # 实例name属性，下面有用到
-        # self.driver = webdriver.Chrome()  #不需要写因为下面那个已经有了
-        self.created_fd()
+        # name = self.mock_field_name()  # 实例调用mock方法
+        # self.name = name   # 实例name属性，下面有用到
+        # # self.driver = webdriver.Chrome()  #不需要写因为下面那个已经有了
+        # self.created_fd()
 
         # driver.find_element(By.XPATH,'//button[text()="新增字段"]').click()
         # driver.find_element(By.XPATH, '//input[@name="suffix"]').send_keys(name)
@@ -40,11 +44,11 @@ class Test_created_filed(fields):
 
     def test_created_numfield(self):    #数值输入
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="number"]').click()
 
@@ -58,11 +62,11 @@ class Test_created_filed(fields):
 
     def test_created_numrange(self):    #数值范围
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="range"]').click()
 
@@ -81,11 +85,11 @@ class Test_created_filed(fields):
 
     def test_created_down_select(self):   #下拉单项
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="select"]').click()
 
@@ -103,11 +107,11 @@ class Test_created_filed(fields):
 
     def test_created_date_selection(self):   #日期选择
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="date"]').click()
 
@@ -123,11 +127,11 @@ class Test_created_filed(fields):
 
     def test_created_date_range(self):   #日期范围
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="date-set"]').click()
 
@@ -147,11 +151,11 @@ class Test_created_filed(fields):
 
     def test_created_text_trips(self):   #提示文本
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="label"]').click()
 
@@ -161,11 +165,11 @@ class Test_created_filed(fields):
 
     def test_created_one_radio(self):   #单项选择
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="radio"]').click()
 
@@ -183,11 +187,11 @@ class Test_created_filed(fields):
 
     def test_created_checkbox(self):  # 多项选择
 
-        name = self.mock_field_name()
-
-        self.name = name
-
-        self.created_fd()
+        # name = self.mock_field_name()
+        #
+        # self.name = name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="checkbox"]').click()
 
@@ -209,11 +213,11 @@ class Test_created_filed(fields):
 
     def test_created_attachment(self):   #上传附件，自定义；txt，jpg，xlsx
 
-        name=self.mock_field_name()
-
-        self.name=name
-
-        self.created_fd()
+        # name=self.mock_field_name()
+        #
+        # self.name=name
+        #
+        # self.created_fd()
 
         self.driver.find_element(By.XPATH, '//input[@name="field"][@value="attachment"]').click()
 

@@ -1,0 +1,593 @@
+
+#清除元素  编辑校验
+
+
+-
+  #第一步，打开网页   编辑成功
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步 先点击资产类别12选中,
+  action: move_to
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[2]']
+
+-
+  #第10步，打开编辑页面
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[2]']
+
+
+-
+  #第11步 输入类别名称
+  action: clear
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+
+
+-
+  #第12步 输入类别名称
+  action: clear
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+
+
+
+-
+  #第13步 输入类别名称
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: 88367kkk2
+
+-
+  #第14步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: 3747473s_1
+
+-
+  #第15步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第16步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//div[text()="编辑成功"]']
+    expected: 编辑成功
+
+
+
+
+---
+
+
+-
+  #第一步，打开网页   编辑必填
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步 先点击资产类别12选中,
+  action: move_to
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[1]']
+
+-
+  #第10步，打开编辑页面
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[1]']
+
+
+-
+  #第11步 输入类别名称
+  action: clear
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+
+
+
+-
+  #第15步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第16步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="请输入该必填项"]']
+    expected: 请输入该必填项
+
+
+
+---
+
+
+
+-
+  #第一步，打开网页   编辑类别名称唯一
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步 先点击资产类别12选中,
+  action: move_to
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[1]']
+
+-
+  #第10步，打开编辑页面
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[1]']
+
+
+-
+  #第11步 输入类别名称
+  action: clear
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+
+
+
+-
+  #第13步 输入类别名称
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: 公司资产
+
+
+-
+  #第15步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第16步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="当前类别名称已被使用"]']
+    expected: 当前类别名称已被使用
+
+
+
+
+
+---
+
+
+
+
+-
+  #第一步，打开网页
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步 先点击资产类别12选中,
+  action: move_to
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[2]']
+
+-
+  #第10步，打开编辑页面
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[2]']
+
+
+
+
+-
+  #第12步 输入类别名称
+  action: clear
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+
+
+
+-
+  #第14步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: 111
+
+-
+  #第15步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第16步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="当前类别编码已被使用"]']
+    expected: 当前类别编码已被使用
+
+
+
+
+---
+
+
+
+-
+  #第一步，打开网页   编辑编码，的特殊符号校验
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第7步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[1]']
+
+
+
+-
+  #第8步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//p[text()="资产类别"])[2]']
+
+
+-
+  #第9步 先点击资产类别12选中,
+  action: move_to
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[2]']
+
+-
+  #第10步，打开编辑页面
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="修改类别名称"]//*[name()="svg"])[2]']
+
+
+
+-
+  #第12步 输入类别名称
+  action: clear
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+
+
+-
+  #第14步  输入类别编码
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="code"]']
+    word: 汉字
+
+-
+  #第15步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第16步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="请输入由大小写英文字母、数字、及特殊符号组成的字符串(特殊符号包括 - ~ · / \ | _ ),比如:Abc123、A-123"]']
+    expected: 请输入由大小写英文字母、数字、及特殊符号组成的字符串(特殊符号包括 - ~ · / \ | _ ),比如:Abc123、A-123
+
+
+
+
+
+
+

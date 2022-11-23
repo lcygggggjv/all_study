@@ -20,6 +20,10 @@ import  pyautogui
 
 
 #PO模式
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae652626061b8befe06df0afd92f7598bc600ea7
 class login_page:
 
     #元素类属性
@@ -30,14 +34,20 @@ class login_page:
     eamicon=(By.XPATH, '//div[@class="css-q37yd2"]//img')
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ae652626061b8befe06df0afd92f7598bc600ea7
     def login_thingList(self):
 
         self.driver=webdriver.Chrome()
         self.driver.get(config.sit_url)
         self.driver.implicitly_wait(10)  # 智能等待
+<<<<<<< HEAD
         self.word=self.test_word()
 
+=======
+>>>>>>> ae652626061b8befe06df0afd92f7598bc600ea7
 
         self.driver.find_element(*self.tentcode).send_keys(config.tenantCode)  #加个*号，元组解包
         self.driver.find_element(*self.account).send_keys(config.account)
@@ -46,6 +56,7 @@ class login_page:
 
         # driver.find_element(By.XPATH,'//div[@class="css-q37yd2"][3]//img').click()  #前面有管理中心的
         self.driver.find_element(*self.eamicon).click()
+<<<<<<< HEAD
         self.driver.find_element(By.XPATH, '//button[text()="新增资产"]').click()
         self.driver.find_element(By.XPATH, '//div[@name="category"]//input').click()
         self.driver.find_element(By.XPATH, '//span[text()="121212"]').click()
@@ -116,6 +127,12 @@ class login_page:
 
 
     def test_word(self):
+=======
+
+        return self
+
+    def created_faker(self):
+>>>>>>> ae652626061b8befe06df0afd92f7598bc600ea7
 
         fk=faker.Faker()  #生成英语单词
         word=fk.word()
@@ -147,7 +164,11 @@ class login_page:
 
         time.sleep(3)  #按下enter，有一定缓冲时间才能上传成功
 
+<<<<<<< HEAD
 if __name__ == '__main__':
+=======
+# if __name__ == '__main__':
+>>>>>>> ae652626061b8befe06df0afd92f7598bc600ea7
 
     ll=login_page()
     a=ll.test_word()

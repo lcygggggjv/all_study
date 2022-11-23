@@ -22,3 +22,11 @@
 2022-09-17 23:19:48.834 | INFO     | test_unittest:test_01:50 - 正确运行结果
 2022-09-17 23:19:48.932 | INFO     | test_unittest:test_01:50 - 正确运行结果
 2022-09-17 23:19:49.125 | INFO     | test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:18:42.764 | INFO     | test_uintestCase.test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:18:43.155 | INFO     | test_uintestCase.test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:18:43.244 | INFO     | test_uintestCase.test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:18:43.410 | INFO     | test_uintestCase.test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:19:54.905 | INFO     | test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:19:55.093 | INFO     | test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:19:56.200 | INFO     | test_unittest:test_01:50 - 正确运行结果
+2022-11-20 23:19:56.365 | INFO     | test_unittest:test_01:50 - 正确运行结果

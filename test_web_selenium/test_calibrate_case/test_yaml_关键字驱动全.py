@@ -6,7 +6,6 @@
 
 """
 import time
-
 import pytest
 import yaml
 
@@ -15,7 +14,7 @@ from test_web_selenium.test_calibrate_case.conftest import browser
 
 with open('logins.yaml',encoding='utf-8') as f:
 
-    cases=list(yaml.safe_load_all(f))  #safe.load读取yaml文件数据,all 全部  ,转换列表
+    cases=list(yaml.safe_load_all(f))  #safe.load读取yaml文件数据,all 全部  ,字典转成 转换列表，
 
 
 

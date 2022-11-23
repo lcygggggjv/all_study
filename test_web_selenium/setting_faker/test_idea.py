@@ -11,9 +11,7 @@ DEFAULT_TIMEOUT=10
 
 class ideas:
 
-    # def __init__(self,driver:Chrome):
-    #
-    #     self.driver=driver
+
     def created_faker(self):
 
         self.fk=faker.Faker()  #生成英语单词
