@@ -26,7 +26,7 @@ class BasePage:
     category2=('xpath', '(//p[text()="资产类别"])[2]')
     area1 = ('xpath', '//p[text()="区域管理"]')
     area2 = ('xpath', '//p[text()="tc"]')
-
+    team = ('xpath', '//p[text()="班组配置"]')
     # """浏览器通用操作  Chrome的类，浏览器driver对象"""
     def __init__(self,driver:Chrome):
 
@@ -263,6 +263,23 @@ class BasePage:
 
     def asser_el_text_equal(self,expected,locator):
             #断言，传元素吗，和预期加个
-        self.show_wait_el_clickable(locator)
-        el=self.get_element(locator)
+        el=self.show_wait_el_clickable(locator)  #显示等待已经返回el，变量接收
+
         assert expected == el.text   #等于获得的元素的文本
+
+    def team_login(self):
+
+        self.driver.get(config.sit_url)
+        self.driver.implicitly_wait(10)  # 智能等待
+
+        self.driver.find_element(*self.tentcode).send_keys(config.tenantCode)  #加个*号，元组解包
+        self.driver.find_element(*self.account).send_keys(config.account)
+        self.driver.find_element(*self.password).send_keys(config.password)
+        self.driver.find_element(*self.submit).click()
+
+        # driver.find_element(By.XPATH,'//div[@class="css-q37yd2"][3]//img').click()  #前面有管理中心的
+        self.driver.find_element(*self.eamicon).click()
+        self.driver.find_element(*self.pz).click()
+        self.driver.find_element(*self.team).click()
+
+        return self
