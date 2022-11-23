@@ -12,5 +12,5 @@ class config:
     sit_url='http://teamsit.teletraan.io'
 
 
-    thing_file=r'D:\pycharm-workspace\test_项目搭建5\test_cases用例\cases.xlsx'
+    thing_file=r'/Users/lcy/PycharmProjects/all_study/test_project_6/test_cases用例/cases.xlsx'
 

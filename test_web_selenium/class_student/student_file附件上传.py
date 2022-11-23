@@ -11,6 +11,7 @@ import keyboard
 
 def created_Default_filed():
 
+
     driver = webdriver.Chrome()
     driver.get(config.sit_url)
     driver.implicitly_wait(10)  # 智能等待
@@ -26,6 +27,7 @@ def created_Default_filed():
     driver.find_element(By.XPATH, '//button[text()="新增资产"]').click()
     driver.find_element(By.XPATH, '//div[@name="category"]//input').click()
     driver.find_element(By.XPATH, '//span[text()="121212"]').click()
+
     driver.find_element(By.XPATH, '//input[@name="code"]').send_keys('sde')
     driver.find_element(By.XPATH, '//input[@name="name"]').send_keys('000')
     driver.find_element(By.XPATH, '//input[@name="specification"]').send_keys('000')

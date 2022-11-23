@@ -12,22 +12,15 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 # from test_web_selenium.thing_list.conftest import logins_page, browser
+from test_web_selenium.common.basepage import BasePage
 
+class thing_Page():
 
-class Test_thing_Page():
-
-    @classmethod
-    def setup_class(cls):
-        ad=login_page(browser)
-        driver = ad.driver
-
-        ad.login_thingList() #实例继承的默认登录到台账
-
-        test_word=ad.created_faker()  #继承faker函数，
 
 
     def created_Default_filed(self):
 
+        self.driver=webdriver.Chrome()
         self.driver.find_element(By.XPATH, '//button[text()="新增资产"]').click()
         self.driver.find_element(By.XPATH, '//div[@name="category"]//input').click()
         self.driver.find_element(By.XPATH, '//span[text()="121212"]').click()
