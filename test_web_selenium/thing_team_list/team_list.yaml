@@ -1,0 +1,952 @@
+
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="新增班组"]']
+
+
+-
+  #第10步，打开新增页面
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="name"]']
+    word: 99900
+-
+  #第11步 输入类别名称
+  action: click
+  params:
+    locator: ['xpath', '//div[@name="leader"]//input[@autocomplete="off"]']
+
+
+-
+  #第12步  输入类别编码
+  action: click
+  params:
+    locator: ['xpath', '//p[text()="6666/kkk"]']
+
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//div[@name="member"]//input[@autocomplete="off"]']
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//p[text()="8900/goat"]']
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[@title="Close"]']
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//div[text()="新增成功"]']
+    expected: 新增成功
+
+
+
+---
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="新增班组"]']
+
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="请输入该必填项"]']
+    expected: 请输入该必填项
+
+
+
+
+---
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="新增班组"]']
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="name"]']
+    word: 1133
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="该班组名称已存在，请重新输入"]']
+    expected: 该班组名称已存在，请重新输入
+
+
+
+
+---
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="编辑"]//*[name()="svg"])[1]']
+
+
+-
+  #第10步，打开新增页面
+  action: clear
+  params:
+    locator: ['xpath','//input[@name="name"]']
+
+-
+  #第11步 输入类别名称
+  action: move_to
+  params:
+    locator: ['xpath', '(//div[@name="leader"]//*[name()="svg"])[1]']
+
+
+-
+  #第12步  输入类别编码
+  action: click
+  params:
+    locator: ['xpath', '(//div[@name="leader"]//*[name()="svg"])[1]']
+
+
+-
+  #第13步 点击确定
+
+  action: move_to
+  params:
+    locator: ['xpath', '(//div[@name="member"]//*[name()="svg"])[2]']
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '(//div[@name="member"]//*[name()="svg"])[2]']
+
+-
+  #第13步 点击确定
+
+  action: send_keys
+  params:
+    locator: ['xpath', '//input[@name="name"]']
+    word: 67777900
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//div[@name="leader"]//input[@autocomplete="off"]']
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//p[text()="778999/普通9"]']
+
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//div[@name="member"]//input[@autocomplete="off"]']
+
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//p[text()="33342/普通8"]']
+
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//div[text()="编辑成功"]']
+    expected: 编辑成功
+
+
+
+---
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="编辑"]//*[name()="svg"])[1]']
+
+
+-
+  #第10步，打开新增页面
+  action: clear
+  params:
+    locator: ['xpath','//input[@name="name"]']
+
+
+
+-
+  #第13步 点击确定
+
+  action: move_to
+  params:
+    locator: ['xpath', '(//div[@name="leader"]//*[name()="svg"])[1]']
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '(//div[@name="leader"]//*[name()="svg"])[1]']
+
+
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="请输入该必填项"]']
+    expected: 请输入该必填项
+
+
+
+---
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="编辑"]//*[name()="svg"])[1]']
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: clear
+  params:
+    locator: ['xpath','//input[@name="name"]']
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="name"]']
+    word: 1133
+
+-
+  #第13步 点击确定
+
+  action: click
+  params:
+    locator: ['xpath', '//button[text()="确定"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//p[text()="该班组名称已存在，请重新输入"]']
+    expected: 该班组名称已存在，请重新输入
+
+
+---
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','(//span[@aria-label="删除"]//*[name()="svg"])[1]']
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="删除"]']
+
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//div[text()="删除成功"]']
+    expected: 删除成功
+
+
+---
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="search"]']
+    word: 1133
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//button[@aria-label="查询"]']
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//td[text()=1133]']
+    expected: '1133'
+
+
+
+---
+
+
+-
+
+
+  #第一步，打开网页  新增类别
+  action: get_url
+  params:
+    url: http://teamsit.teletraan.io
+
+-
+  #第二步 输入第一个元素和内容企业标识符
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="tenantCode"]']
+    word: cr7
+
+-
+  #第三步账号
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="account"]']
+    word: eam111
+
+-
+  #第四步 密码
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="password"]']
+    word: teletraan
+
+-
+  #第五步 点击确定,
+  action: click
+  params:
+    locator: ['xpath','//button[text()="登录"]']
+
+
+
+-
+  #第6步 点击设备资产icon,
+  action: click
+  params:
+    locator: ['xpath','//div[@class="css-q37yd2"]//img']
+
+
+
+-
+  #第7步 点击基础配置icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="基础配置"]']
+
+
+
+-
+  #第8步 点击资产类别1级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//p[text()="班组配置"]']
+
+
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: send_keys
+  params:
+    locator: ['xpath','//input[@name="search"]']
+    word: 1133
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//button[@aria-label="查询"]']
+
+-
+  #第9步 点击资产类别2级菜单icon,
+  action: click
+  params:
+    locator: ['xpath','//button[@aria-label="重置"]']
+
+
+
+-
+  #第14步，断言 新增成功  yaml没有元组形式，有列表
+  action: asser_el_text_equal
+  params:
+    locator: ['xpath', '//td[text()="6667777"]']
+    expected: '6667777'
+
+

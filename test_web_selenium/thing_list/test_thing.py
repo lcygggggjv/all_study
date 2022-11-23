@@ -11,7 +11,6 @@ from test_web_selenium.setting_faker import test_idea
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-<<<<<<< HEAD
 # from test_web_selenium.thing_list.conftest import logins_page, browser
 from test_web_selenium.common.basepage import BasePage
 
@@ -134,12 +133,9 @@ class thing_Page():
 
         self.driver.quit()
 
-if __name__ == '__main__':
 
-        ad=Test_thing_Page()
     # ad.test_created_Default_filed()
     #     ad.test_update_thing()
-=======
 
 #
 # class Test_thing_Page():
@@ -268,4 +264,4 @@ if __name__ == '__main__':
 #         ad=Test_thing_Page()
 #     # ad.test_created_Default_filed()
 #     #     ad.test_update_thing()
->>>>>>> ae652626061b8befe06df0afd92f7598bc600ea7
+
