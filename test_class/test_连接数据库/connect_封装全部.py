@@ -2,7 +2,7 @@
 
 import pymysql
 from pymysql.cursors import DictCursor
-from test_项目搭建5.config.configs import config
+from test_project_6.config.configs import config
 
 class conect_sql:
 

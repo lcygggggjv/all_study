@@ -4,10 +4,10 @@ import requests
 from unittestreport import ddt,list_data
 import unittest
 
-from test_项目搭建5.config.configs import config
-from test_项目搭建5.read_excel.read_excel1 import read_excel
-from test_项目搭建5.common.seetting import logger
-from test_项目搭建5.common.test_adminlogin import adminlogin
+from test_project_6.config.configs import config
+from test_project_6.read_excel.read_excel1 import read_excel
+from test_project_6.common.seetting import logger
+from test_project_6.common.test_adminlogin import adminlogin
 
 cases=read_excel(config.product,sheetname='product')
 

@@ -2,9 +2,9 @@ import time
 
 import requests
 
-from test_项目搭建5.common.get_mobile import get_mobile
-from test_项目搭建5.config.configs import config
-from test_项目搭建5.common.db_connect import conect_sql
+from test_project_6.common.get_mobile import get_mobile
+from test_project_6.config.configs import config
+from test_project_6.common.db_connect import conect_sql
 
 
 def adminlogin(usname,pwd):

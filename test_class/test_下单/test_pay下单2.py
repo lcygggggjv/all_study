@@ -5,10 +5,10 @@ import jsonpath
 import requests
 from unittestreport import ddt,list_data
 
-from test_项目搭建5.test_API.test_API import API
+from test_project_6.test_API.test_API import API
 
-from test_项目搭建5.read_excel.read_excel1 import read_excel
-from test_项目搭建5.config.configs import config
+from test_project_6.read_excel.read_excel1 import read_excel
+from test_project_6.config.configs import config
 
 cases=read_excel(config.pay,sheetname='order_flow')
 

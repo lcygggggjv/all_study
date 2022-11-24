@@ -7,14 +7,14 @@ from unittestreport import ddt,list_data
 import unittest
 
 from test_class.test_正则表达式.test_封装正则表达式 import Data, replace_data
-from test_项目搭建5.common.get_mobile import get_mobile
-from test_项目搭建5.config.configs import config
-from test_项目搭建5.read_excel.read_excel1 import read_excel
-from test_项目搭建5.common.seetting import logger
-from test_项目搭建5.common.test_adminlogin import adminlogin
+from test_project_6.common.get_mobile import get_mobile
+from test_project_6.config.configs import config
+from test_project_6.read_excel.read_excel1 import read_excel
+from test_project_6.common.seetting import logger
+from test_project_6.common.test_adminlogin import adminlogin
 
 from test_class.register_注册.register_注册s import gets_sms_code,check_sms_code
-from test_项目搭建5.test_API.test_API import API
+from test_project_6.test_API.test_API import API
 
 cases=read_excel(config.prod_file,sheetname='register')
 
